@@ -1,0 +1,27 @@
+ <center>
+  <div class="bar bar-header bar-energized">
+  <h1 class="title">เพิ่มสมาชิก</h1>
+  </div>
+<form ng-submit="createMember()">
+<div class="list has-subheader">
+  <label class="item item-input">
+    <span class="input-label">FNAME</span>
+    <input type="text" ng-model="memberData.fname">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">LNAME</span>
+    <input type="text" ng-model="memberData.lname">
+  </label>
+   <label class="item item-input">
+    <span class="input-label">PIC</span>
+    <input type="text" ng-model="memberData.pic">
+  </label>
+<br>
+<button class="button button-outline button-energized"type="submit">
+  เพิ่มข้อมูล
+</button>
+</div>
+</form>
+<div class="bar bar-footer bar-energized">
+  <div class="title">Footer</div>
+</div>

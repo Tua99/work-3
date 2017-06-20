@@ -1,0 +1,27 @@
+<center>
+  <div class="bar bar-header bar-energized">
+  <h1 class="title">เพิ่มผู้ดูแลระบบ</h1>
+  </div>
+<form ng-submit="editAdmin()">
+<div class="list has-subheader">
+<label class="item item-input">
+    <span class="input-label">ID</span>
+    <input type="text" ng-model="editData.admin_id">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Username</span>
+    <input type="text" ng-model="editData.admin_username">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Password</span>
+    <input type="password" ng-model="editData.admin_password">
+  </label>
+<br>
+<button class="button button-outline button-energized"type="submit">
+  เพิ่มข้อมูล
+</button>
+</div>
+</form>
+<div class="bar bar-footer bar-energized">
+  <div class="title">Footer</div>
+</div>
